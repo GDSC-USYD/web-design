@@ -1,0 +1,160 @@
+
+body{
+	font-family:"small arial", sans-serif;
+}
+
+.wrap{
+	min-width: 800px;
+}
+
+li{
+	margin:0;
+	list-style: none;
+	display:inline;
+}
+
+a{
+	text-decoration: none;
+	font-size: 13px;
+	line-height:24px;
+	color:#404040;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+/*HEADER*/
+
+header{
+	overflow:hidden;
+}
+
+header ul{
+	margin-right:5px;
+	letter-spacing:1px;
+}
+
+header ul li{
+	margin-right:14px;
+}
+
+#left-header{
+    /* margin-left: 5px; */
+    float: left;
+}
+
+header ul li a:hover{
+	color:black;
+}
+
+.apps:hover{
+	cursor: default;
+	color:black;
+}
+
+.button{
+	background:#4683EA;
+	box-sizing:border-box;
+	padding:.5em .75em;
+	line-height: 28px;
+	letter-spacing:normal;
+    border-radius: 5px;
+}
+
+.button a{
+	color:white;
+	font-weight:bold;
+}
+
+.button a:hover{
+	text-decoration:none;
+	cursor: default;
+	color:white;	
+}
+
+/*Main Content*/
+
+#searchbox {
+    background-image: url("../../img/google/search.png"), url(../../img/google/voice_search.png);
+    background-size:15px;
+    background-repeat: no-repeat;
+    background-position: 3% center, 97% center;
+    text-indent: 50px;
+}
+
+.main{
+	clear:both;
+	width:100%;
+}
+
+.main img{
+	display:block;
+	margin:auto;
+	height:95px;
+	padding-top:112px;
+}
+
+form{
+	text-align: center;
+}
+
+#searchbox{
+	font-size:16px;
+	height:40px;
+	width:600px;
+	margin-top:30px;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: thin;
+    border-color: #d3d3d3 !important;
+}
+
+#searchbox:focus{
+    outline: none;
+}
+
+
+.submit{
+	border: none;
+    border-radius: 3px;
+	background: #f8f9fa;
+	height: 29px;
+	line-height: 29px;
+	margin: 16px 8px;
+	color:#3c4043;
+}
+
+.submit:hover{
+	border:1px solid rgba(0,0,0,.2);
+	color:black;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.2);
+}
+
+/*Footer*/
+
+footer{
+	overflow:auto;
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	min-width:800px;
+	height:40px;
+	background: #ededed;
+	border-top: 1px solid rgba(0,0,0,.1);
+	padding-bottom: 15px;
+}
+
+footer a{
+	margin-right:30px;
+	letter-spacing:1px;
+}
+
+footer .left{
+	float:left;
+}
+
+footer .right, header ul{
+	float:right;
+}
